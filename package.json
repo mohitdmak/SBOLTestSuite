@@ -1,0 +1,28 @@
+{
+  "name": "sbol-test-suite",
+  "version": "1.0.0",
+  "description": "Test suite for the Synthetic Biology Open Language (SBOL)",
+  "main": "test/sboljs/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/sboljs/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SynBioDex/SBOLTestSuite.git"
+  },
+  "author": "SynBioDex",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SynBioDex/SBOLTestSuite/issues"
+  },
+  "homepage": "https://github.com/SynBioDex/SBOLTestSuite#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "glob": "^7.0.3",
+    "sboljs": "git+https://github.com/ICO2S/sboljs.git"
+  },
+  "engine": "node >= 4.2.0"
+}
