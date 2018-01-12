@@ -128,6 +128,7 @@
     <sbol:framework rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000062"/>
     <sbol:language rdf:resource="http://identifiers.org/edam/format_2585"/>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Model/fit_model"/>
+    <sbol:source rdf:resource="file://server.sys-bio.org/model_fit.xml"/>
     <sbol:version>1.0.0</sbol:version>
     <prov:wasDerivedFrom rdf:resource="http://sys-bio.org/Attachment/raw_data/1.0.0"/>
     <prov:wasGeneratedBy rdf:resource="http://sys-bio.org/Activity/fit_model_generation/1.0.0"/>
@@ -137,6 +138,7 @@
     <sbol:framework rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000062"/>
     <sbol:language rdf:resource="http://identifiers.org/edam/format_2585"/>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Model/predicted"/>
+    <sbol:source rdf:resource="file://server.sys-bio.org/circuit_simulation.xml"/>
     <sbol:version>1.0.0</sbol:version>
   </sbol:Model>
   <sbol:ModuleDefinition rdf:about="http://sys-bio.org/ModuleDefinition/design/1.0.0">
