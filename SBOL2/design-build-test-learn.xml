@@ -147,7 +147,7 @@
     <prov:wasGeneratedBy rdf:resource="http://sys-bio.org/Activity/design_generation/1.0.0"/>
   </sbol:ModuleDefinition>
   <prov:Plan rdf:about="http://sys-bio.org/Plan/characterization_protocol/1.0.0">
-    <sbol:attachments rdf:resource="http://sys-bio.org/Attachment/characterization_protocol/1.0.0"/>
+    <sbol:attachment rdf:resource="http://sys-bio.org/Attachment/characterization_protocol/1.0.0"/>
     <sbol:displayId>characterization_protocol</sbol:displayId>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Plan/characterization_protocol"/>
     <sbol:version>1.0.0</sbol:version>
@@ -164,10 +164,10 @@
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Plan/gibson_assembly"/>
     <sbol:version>1.0.0</sbol:version>
   </prov:Plan>
-  <prov:Plan rdf:about="http://sys-bio.org/Plan/model_fitting_script/1.0.0">
-    <sbol:attachments rdf:resource="http://sys-bio.org/Attachment/model_fitting_script/1.0.0"/>
-    <sbol:displayId>model_fitting_script</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Plan/model_fitting_script"/>
+  <prov:Plan rdf:about="http://sys-bio.org/Plan/model_fitting/1.0.0">
+    <sbol:attachment rdf:resource="http://sys-bio.org/Attachment/model_fitting_script/1.0.0"/>
+    <sbol:displayId>model_fitting</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Plan/model_fitting"/>
     <sbol:version>1.0.0</sbol:version>
   </prov:Plan>
   <prov:Agent rdf:about="http://sys-bio.org/plate_reader_1">
