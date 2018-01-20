@@ -199,7 +199,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -258,7 +257,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -370,7 +368,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -430,7 +427,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -678,7 +674,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -738,7 +733,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -870,7 +864,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -930,7 +923,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -1708,7 +1700,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -1768,7 +1759,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -1828,7 +1818,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -2057,7 +2046,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -2117,7 +2105,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -2225,7 +2212,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -2565,7 +2551,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -2625,7 +2610,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -2685,7 +2669,6 @@
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -3378,7 +3361,6 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -3892,7 +3874,6 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -3952,7 +3933,6 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -4072,7 +4052,6 @@ gatcgc</sbh:mutableNotes>
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_GeneratedInstance25_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -4426,8 +4405,6 @@ gatcgc</sbh:mutableNotes>
   <sbol:CombinatorialDerivation rdf:about="http://michael.zhang/Pro_CombinatorialDerivation">
     <sbol:persistentIdentity rdf:resource="http://michael.zhang/Pro_CombinatorialDerivation"/>
     <sbol:displayId>Pro_CombinatorialDerivation</sbol:displayId>
-    <dcterms:title></dcterms:title>
-    <dcterms:description></dcterms:description>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <sbol:template rdf:resource="http://michael.zhang/Pro/1"/>
     <sbol:strategy rdf:resource="http://sbols.org/v2#enumerate"/>
@@ -4447,8 +4424,6 @@ gatcgc</sbh:mutableNotes>
   <sbol:CombinatorialDerivation rdf:about="http://michael.zhang/Eukaryotic_Transcriptional_Unit_CombinatorialDerivation">
     <sbol:persistentIdentity rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_CombinatorialDerivation"/>
     <sbol:displayId>Eukaryotic_Transcriptional_Unit_CombinatorialDerivation</sbol:displayId>
-    <dcterms:title></dcterms:title>
-    <dcterms:description></dcterms:description>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit_SBOLDesignerActivity/1"/>
     <sbol:template rdf:resource="http://michael.zhang/Eukaryotic_Transcriptional_Unit/1"/>
     <sbol:strategy rdf:resource="http://sbols.org/v2#enumerate"/>
