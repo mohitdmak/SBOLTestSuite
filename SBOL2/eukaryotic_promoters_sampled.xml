@@ -442,7 +442,6 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Promoters_GeneratedInstance1_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Promoters_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -762,7 +761,6 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
     <prov:wasDerivedFrom rdf:resource="http://michael.zhang/UnnamedPart/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Promoters_GeneratedInstance1_SBOLDesignerActivity/1"/>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Promoters_SBOLDesignerActivity/1"/>
-    <dcterms:description></dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
@@ -1444,8 +1442,6 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
   <sbol:CombinatorialDerivation rdf:about="http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation">
     <sbol:persistentIdentity rdf:resource="http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation"/>
     <sbol:displayId>Eukaryotic_Promoters_CombinatorialDerivation</sbol:displayId>
-    <dcterms:title></dcterms:title>
-    <dcterms:description></dcterms:description>
     <prov:wasGeneratedBy rdf:resource="http://michael.zhang/Eukaryotic_Promoters_SBOLDesignerActivity/1"/>
     <sbol:template rdf:resource="http://michael.zhang/Eukaryotic_Promoters/1"/>
     <sbol:strategy rdf:resource="http://sbols.org/v2#sample"/>
