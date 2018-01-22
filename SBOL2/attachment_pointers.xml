@@ -47,21 +47,9 @@
   </sbol:Model>
 
   <sbol:ModuleDefinition rdf:about="http://sbolstandard.org/example/md/GFP_expression">
+	<sbol:persistentIdentity rdf:resource="http://sbolstandard.org/example/md/GFP_expression"/> 
+	<sbol:displayId>GFP_expression</sbol:displayId> 
 	<sbol:attachment rdf:resource="http://sys-bio.org/Attachment/characterization_protocol/1.0.0"/>
-	<sbol:functionalComponent> 
-	  <sbol:FunctionalComponent rdf:about="http://sbolstandard.org/example/md/GFP_expression/GFP_protein"> 
-		<sbol:definition rdf:resource="http://sbolstandard.org/example/GFP"/> 
-		<sbol:access rdf:resource="http://sbols.org/v2#public"/> 
-		<sbol:direction rdf:resource="http://sbols.org/v2#output"/> 
-	  </sbol:FunctionalComponent> 
-	</sbol:functionalComponent> 
-	<sbol:functionalComponent> 
-	  <sbol:FunctionalComponent rdf:about="http://sbolstandard.org/example/md/GFP_expression/Constitutive_GFP"> 
-		<sbol:definition rdf:resource="http://sbolstandard.org/example/GFP_generator"/> 
-		<sbol:access rdf:resource="http://sbols.org/v2#public"/> 
-		<sbol:direction rdf:resource="http://sbols.org/v2#none"/> 
-	  </sbol:FunctionalComponent> 
-	</sbol:functionalComponent> 
   </sbol:ModuleDefinition>
 
   <sbol:Collection rdf:about="http://parts.igem.org/Promoters/Catalog/Anderson">
