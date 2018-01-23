@@ -11,7 +11,7 @@
     <dcterms:created>2003-12-04T12:00:00Z</dcterms:created>
     <dcterms:modified>2015-08-31T04:07:26Z</dcterms:modified>
     <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E0422/1"/>
-    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>/
     <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
     <igem:partStatus>Released HQ 2013</igem:partStatus>
     <sbh:mutableDescription>-- No description --</sbh:mutableDescription>
