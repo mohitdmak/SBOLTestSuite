@@ -14,6 +14,7 @@
         <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity/build_generation/build_generation_association"/>
         <sbol:version>1.0.0</sbol:version>
         <prov:agent rdf:resource="mailto:jdoe@sbols.org"/>
+        <prov:hadPlan rdf:resource="http://sys-bio.org/Plan/gibson_assembly/1.0.0"/>
         <prov:hadRole rdf:resource="http://sbols.org/v2#build"/>
       </prov:Association>
     </prov:qualifiedAssociation>
@@ -37,6 +38,7 @@
         <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity/design_generation/design_generation_association"/>
         <sbol:version>1.0.0</sbol:version>
         <prov:agent rdf:resource="http://www.async.ece.utah.edu/ibiosim"/>
+        <prov:hadPlan rdf:resource="http://sys-bio.org/Plan/conversion/1.0.0"/>
         <prov:hadRole rdf:resource="http://sbols.org/v2#design"/>
       </prov:Association>
     </prov:qualifiedAssociation>
@@ -60,6 +62,7 @@
         <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity/fit_model_generation/fit_model_generation_association"/>
         <sbol:version>1.0.0</sbol:version>
         <prov:agent rdf:resource="mailto:jschmoe@sbols.org"/>
+        <prov:hadPlan rdf:resource="http://sys-bio.org/Plan/model_fitting/1.0.0"/>
         <prov:hadRole rdf:resource="http://sbols.org/v2#learn"/>
       </prov:Association>
     </prov:qualifiedAssociation>
@@ -83,6 +86,7 @@
         <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity/raw_data_generation/raw_data_generation_association"/>
         <sbol:version>1.0.0</sbol:version>
         <prov:agent rdf:resource="http://sys-bio.org/plate_reader_1"/>
+        <prov:hadPlan rdf:resource="http://sys-bio.org/Plan/characterization_protocol/1.0.0"/>
         <prov:hadRole rdf:resource="http://sbols.org/v2#test"/>
       </prov:Association>
     </prov:qualifiedAssociation>
@@ -106,12 +110,14 @@
     <sbol:displayId>model_fitting_script</sbol:displayId>
     <sbol:format rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000147"/>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Attachment/model_fitting_script"/>
-    <sbol:source rdf:resource="file:optimize.py"/>
+    <sbol:source rdf:resource="file://server.sys-bio.org/Dev/optimize.py"/>
     <sbol:version>1.0.0</sbol:version>
   </sbol:Attachment>
   <sbol:Attachment rdf:about="http://sys-bio.org/Attachment/raw_data/1.0.0">
     <sbol:displayId>raw_data</sbol:displayId>
+    <sbol:format rdf:resource="http://edamontology.org/format_3752"/>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Attachment/raw_data"/>
+    <sbol:source rdf:resource="file://server.sys-bio.org/data/plate_reader_expt_012218.csv"/>
     <sbol:version>1.0.0</sbol:version>
     <prov:wasDerivedFrom rdf:resource="http://sys-bio.org/Implementation/build/1.0.0"/>
     <prov:wasGeneratedBy rdf:resource="http://sys-bio.org/Activity/raw_data_generation/1.0.0"/>
@@ -129,7 +135,7 @@
     <sbol:framework rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000062"/>
     <sbol:language rdf:resource="http://identifiers.org/edam/format_2585"/>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Model/fit_model"/>
-    <sbol:source rdf:resource="file://server.sys-bio.org/model_fit.xml"/>
+    <sbol:source rdf:resource="file://server.sys-bio.org/models/model_fit.xml"/>
     <sbol:version>1.0.0</sbol:version>
     <prov:wasDerivedFrom rdf:resource="http://sys-bio.org/Attachment/raw_data/1.0.0"/>
     <prov:wasGeneratedBy rdf:resource="http://sys-bio.org/Activity/fit_model_generation/1.0.0"/>
