@@ -114,13 +114,6 @@
 	</prov:qualifiedUsage> 
   </prov:Activity>
 
-  <prov:Plan rdf:about="http://sys-bio.org/Plan/characterization_protocol/1.0.0">
-    <sbol:attachment rdf:resource="http://sys-bio.org/Attachment/characterization_protocol/1.0.0"/>
-    <sbol:displayId>characterization_protocol</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Plan/characterization_protocol"/>
-    <sbol:version>1.0.0</sbol:version>
-  </prov:Plan>
-  
   <prov:Agent rdf:about="http://myapp.com/x_ray">
 	<sbol:attachment rdf:resource="http://sys-bio.org/Attachment/characterization_protocol/1.0.0"/>
 	<sbol:persistentIdentity rdf:resource="http://myapp.com/x_ray"/> 
