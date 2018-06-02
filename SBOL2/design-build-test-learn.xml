@@ -119,13 +119,8 @@
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Attachment_raw_data"/>
     <sbol:source rdf:resource="file://server.sys-bio.org/data/plate_reader_expt_012218.csv"/>
     <sbol:version>1.0.0</sbol:version>
-<<<<<<< HEAD
     <prov:wasDerivedFrom rdf:resource="http://sys-bio.org/Implementation_build/1.0.0"/>
     <prov:wasGeneratedBy rdf:resource="http://sys-bio.org/Activity_raw_data_generation/1.0.0"/>
-=======
-    <prov:wasDerivedFrom rdf:resource="http://sys-bio.org/Implementation/build/1.0.0"/>
-    <prov:wasGeneratedBy rdf:resource="http://sys-bio.org/Activity/raw_data_generation/1.0.0"/>
->>>>>>> branch 'master' of https://github.com/SynBioDex/SBOLTestSuite.git
   </sbol:Attachment>
   <sbol:Implementation rdf:about="http://sys-bio.org/Implementation_build/1.0.0">
     <sbol:displayId>build</sbol:displayId>
