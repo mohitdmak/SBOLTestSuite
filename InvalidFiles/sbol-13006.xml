@@ -1409,10 +1409,6 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
         <sbol:displayId>Op_Component_VariableComponent</sbol:displayId>
         <sbol:variable rdf:resource="http://michael.zhang/Eukaryotic_Promoters/Op_Component/1"/>
         <sbol:operator rdf:resource="http://sbols.org/v2#zeroOrOne"/>
-        <sbol:variant rdf:resource="https://synbiohub.org/public/igem/BBa_K119002/1"/>
-        <sbol:variant rdf:resource="https://synbiohub.org/public/igem/BBa_I741109/1"/>
-        <sbol:variant rdf:resource="https://synbiohub.org/public/igem/BBa_I9201/1"/>
-        <sbol:variant rdf:resource="https://synbiohub.org/public/igem/BBa_I13603/1"/>
       </sbol:VariableComponent>
     </sbol:variableComponent>
   </sbol:CombinatorialDerivation>
