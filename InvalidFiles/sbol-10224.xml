@@ -104,14 +104,12 @@
   </sbol:Attachment>
   <sbol:Attachment rdf:about="http://sys-bio.org/Attachment_model_fitting_script/1.0.0">
     <sbol:displayId>Attachment_model_fitting_script</sbol:displayId>
-    <sbol:format rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000147"></sbol:format>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Attachment_model_fitting_script"/>
     <sbol:source rdf:resource="file://server.sys-bio.org/Dev/optimize.py"/>
     <sbol:version>1.0.0</sbol:version>
   </sbol:Attachment>
   <sbol:Attachment rdf:about="http://sys-bio.org/Attachment_raw_data/1.0.0">
     <sbol:displayId>Attachment_raw_data</sbol:displayId>
-    <sbol:format rdf:resource="http://edamontology.org/format_3752"/>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Attachment_raw_data"/>
     <sbol:source rdf:resource="file://server.sys-bio.org/data/plate_reader_expt_012218.csv"/>
     <sbol:version>1.0.0</sbol:version>
@@ -123,7 +121,7 @@
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Implementation_build"/>
     <sbol:version>1.0.0</sbol:version>
     <prov:wasDerivedFrom rdf:resource="http://sys-bio.org/ModuleDefinition_design/1.0.0"/>
-    <prov:wasGeneratedBy rdf:resource="http://sys-bio.org/Activity_build_generation/1.0.0"/>
+    <prov:wasGeneratedBy rdf:resource="http://sys-bio.org/Activity_design_generation/1.0.0"/>
   </sbol:Implementation>
   <sbol:Model rdf:about="http://sys-bio.org/Model_fit_model/1.0.0">
     <sbol:displayId>Model_fit_model</sbol:displayId>

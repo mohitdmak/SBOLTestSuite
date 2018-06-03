@@ -1,5 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#"
+	 xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#"
+	 xmlns:sbol="http://sbols.org/v2#"
+	 xmlns:dcterms="http://purl.org/dc/terms/"
+	 xmlns:prov="http://www.w3.org/ns/prov#"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns:obo="http://purl.obolibrary.org/obo/">
   <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_E0040/1">
     <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0040"/>
     <sbol:displayId>BBa_E0040</sbol:displayId>
@@ -932,4 +939,22 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
       </sbol:VariableComponent>
     </sbol:variableComponent>
   </sbol:CombinatorialDerivation>
+    <prov:Agent rdf:about="https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/SBOL_Software/SBOLDesigner"/>
+    <sbol:displayId>SBOLDesigner</sbol:displayId>
+    <sbol:version>2.2</sbol:version>
+    <dcterms:title>SBOLDesigner CAD Tool</dcterms:title>
+    <dcterms:description>SBOLDesigner is a simple, biologist-friendly CAD software tool for creating and manipulating the sequences of genetic constructs using the Synthetic Biology Open Language (SBOL) 2.0 data model. Throughout the design process, SBOL Visual symbols, a system of schematic glyphs, provide standardized visualizations of individual parts. SBOLDesigner completes a workflow for users of genetic design automation tools. It combines a simple user interface with the power of the SBOL standard and serves as a launchpad for more detailed designs involving simulations and experiments. Some new features in SBOLDesigner are SynBioHub integration, local repositories, importing of parts/sequences from existing files, import and export of GenBank and FASTA files, extended role ontology support, the ability to partially open designs with multiple root ComponentDefinitions, backward compatibility with SBOL 1.1, and versioning.</dcterms:description>
+    <dcterms:modified>2017-07-07T01:47:49</dcterms:modified>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <obo:OBI_0001617>28441476</obo:OBI_0001617>
+    <dc:creator>Michal Galdzicki</dc:creator>
+    <dc:creator>Sean Sleight</dc:creator>
+    <dc:creator>Chris Myers</dc:creator>
+    <dc:creator>Bryan Bartley</dc:creator>
+    <dc:creator>John Gennari</dc:creator>
+    <dc:creator>Evren Sirin</dc:creator>
+    <dc:creator>Michael Zhang</dc:creator>
+  </prov:Agent>
 </rdf:RDF>

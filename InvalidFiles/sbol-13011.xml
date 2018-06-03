@@ -7,6 +7,11 @@
 	 xmlns:prov="http://www.w3.org/ns/prov#"
 	 xmlns:dc="http://purl.org/dc/elements/1.1/"
 	 xmlns:obo="http://purl.obolibrary.org/obo/">
+   <sbol:Collection rdf:about="http://www.async.ece.utah.edu/myParts/1.0">
+    <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/myParts"/>
+    <sbol:displayId>myParts</sbol:displayId>
+    <sbol:version>1.0</sbol:version>
+  </sbol:Collection>
   <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_E0422/1">
     <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0422"/>
     <sbol:displayId>BBa_E0422</sbol:displayId>
@@ -1396,9 +1401,7 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
         <prov:agent rdf:resource="https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2"/>
       </prov:Association>
     </prov:qualifiedAssociation>
-    <prov:wasInformedBy
-	rdf:resource="https://synbiohub.org/public/igem/BBa_I13603_sequence/1"/>
-  </prov:Activity>  
+  </prov:Activity>
   <sbol:CombinatorialDerivation rdf:about="http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation">
     <sbol:persistentIdentity rdf:resource="http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation"/>
     <sbol:displayId>Eukaryotic_Promoters_CombinatorialDerivation</sbol:displayId>
@@ -1411,27 +1414,24 @@ Contact info for this part: &lt;a href="mailto:(bchow@media.mit.edu)"&gt;Brian C
         <sbol:displayId>Op_Component_VariableComponent</sbol:displayId>
         <sbol:variable rdf:resource="http://michael.zhang/Eukaryotic_Promoters/Op_Component/1"/>
         <sbol:operator rdf:resource="http://sbols.org/v2#zeroOrOne"/>
-        <sbol:variant rdf:resource="https://synbiohub.org/public/igem/BBa_K119002/1"/>
-        <sbol:variant rdf:resource="https://synbiohub.org/public/igem/BBa_I741109/1"/>
-        <sbol:variant rdf:resource="https://synbiohub.org/public/igem/BBa_I9201/1"/>
-        <sbol:variant rdf:resource="https://synbiohub.org/public/igem/BBa_I13603/1"/>
+        <sbol:variantCollection rdf:resource="http://www.async.ece.utah.edu/myParts/1.0"/>
       </sbol:VariableComponent>
     </sbol:variableComponent>
   </sbol:CombinatorialDerivation>
-  <prov:Activity rdf:about="https://synbiohub.org/public/igem/igem2sbol/1">
+   <prov:Activity rdf:about="https://synbiohub.org/public/igem/igem2sbol/1">
     <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem2sbol"/>
     <sbol:displayId>igem2sbol</sbol:displayId>
     <sbol:version>1</sbol:version>
     <dcterms:title>iGEM to SBOL conversion</dcterms:title>
     <dcterms:description>Conversion of the iGEM parts registry to SBOL2.1</dcterms:description>
-    <dc:creator>Chris J. Myers</dc:creator>
-    <dc:creator>James Alastair McLaughlin</dc:creator>
     <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
     <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
     <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
-    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-06T15:00:00.000Z</prov:endedAtTime>
+    <dc:creator>Chris J. Myers</dc:creator>
+    <dc:creator>James Alastair McLaughlin</dc:creator>
+    <prov:endedAtTime>2017-03-06T08:00:00.000-07:00</prov:endedAtTime>
   </prov:Activity>
-   <prov:Agent rdf:about="https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2">
+    <prov:Agent rdf:about="https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2">
     <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/SBOL_Software/SBOLDesigner"/>
     <sbol:displayId>SBOLDesigner</sbol:displayId>
     <sbol:version>2.2</sbol:version>

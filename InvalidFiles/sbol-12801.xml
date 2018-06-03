@@ -81,7 +81,7 @@
         <sbol:displayId>raw_data_generation_association</sbol:displayId>
         <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_raw_data_generation/raw_data_generation_association"/>
         <sbol:version>1.0.0</sbol:version>
-        <prov:agent rdf:resource="http://sys-bio.org/plate_reader_1"/>
+        <prov:agent rdf:resource="https://synbiohub.org/jschmoe/1.0.0"/>
         <prov:hadPlan rdf:resource="http://sys-bio.org/Plan_characterization_protocol/1.0.0"/>
         <prov:hadRole rdf:resource="http://sbols.org/v2#test"/>
       </prov:Association>
@@ -178,6 +178,7 @@
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/plate_reader_1"></sbol:persistentIdentity>
     <sbol:version>1.0.0</sbol:version>
     <sbol:displayId>plate_reader_1</sbol:displayId>
+    <sbol:display>plate_reader_1</sbol:display>
   </prov:Agent>
   <prov:Agent rdf:about="http://www.async.ece.utah.edu/ibiosim/1.0.0">
     <dcterms:description>Software application for the modeling, analysis, and design of genetic circuits</dcterms:description>

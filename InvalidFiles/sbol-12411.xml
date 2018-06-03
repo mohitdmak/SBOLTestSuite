@@ -63,13 +63,13 @@
       </prov:Association>
     </prov:qualifiedAssociation>
     <prov:qualifiedUsage>
-      <prov:Usage rdf:about="http://sys-bio.org/Activity_fit_model_generation/raw_data_usage/1.0.0">
-        <sbol:displayId>raw_data_usage</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_fit_model_generation/raw_data_usage"/>
+    <prov:Usage rdf:about="http://sys-bio.org/Activity_raw_data_generation/build_usage/1.0.0">
+        <sbol:displayId>build_usage</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_raw_data_generation/build_usage"/>
         <sbol:version>1.0.0</sbol:version>
-        <prov:entity rdf:resource="http://sys-bio.org/Attachment_raw_data/1.0.0"/>
-        <prov:hadRole rdf:resource="http://sbols.org/v2#test"/>
-      </prov:Usage>
+        <prov:entity rdf:resource="http://sys-bio.org/Implementation_build/1.0.0"/>
+        <prov:hadRole rdf:resource="http://sbols.org/v2#build"/>
+    </prov:Usage>
     </prov:qualifiedUsage>
   </prov:Activity>
   <prov:Activity rdf:about="http://sys-bio.org/Activity_raw_data_generation/1.0.0">
@@ -104,14 +104,12 @@
   </sbol:Attachment>
   <sbol:Attachment rdf:about="http://sys-bio.org/Attachment_model_fitting_script/1.0.0">
     <sbol:displayId>Attachment_model_fitting_script</sbol:displayId>
-    <sbol:format rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000147"></sbol:format>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Attachment_model_fitting_script"/>
     <sbol:source rdf:resource="file://server.sys-bio.org/Dev/optimize.py"/>
     <sbol:version>1.0.0</sbol:version>
   </sbol:Attachment>
   <sbol:Attachment rdf:about="http://sys-bio.org/Attachment_raw_data/1.0.0">
     <sbol:displayId>Attachment_raw_data</sbol:displayId>
-    <sbol:format rdf:resource="http://edamontology.org/format_3752"/>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Attachment_raw_data"/>
     <sbol:source rdf:resource="file://server.sys-bio.org/data/plate_reader_expt_012218.csv"/>
     <sbol:version>1.0.0</sbol:version>

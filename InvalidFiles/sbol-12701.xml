@@ -10,7 +10,6 @@
         <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_build_generation/build_generation_association"/>
         <sbol:version>1.0.0</sbol:version>
         <prov:agent rdf:resource="https://synbiohub.org/jdoe/1.0.0"/>
-        <prov:hadPlan rdf:resource="http://sys-bio.org/Plan_gibson_assembly/1.0.0"/>
         <prov:hadRole rdf:resource="http://sbols.org/v2#build"/>
       </prov:Association>
     </prov:qualifiedAssociation>
@@ -165,6 +164,7 @@
   <prov:Plan rdf:about="http://sys-bio.org/Plan_gibson_assembly/1.0.0">
     <dcterms:description>DNA assembly</dcterms:description>
     <sbol:displayId>Plan_gibson_assembly</sbol:displayId>
+    <sbol:display>Plan_gibson_assembly</sbol:display>
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Plan_gibson_assembly"/>
     <sbol:version>1.0.0</sbol:version>
   </prov:Plan>
