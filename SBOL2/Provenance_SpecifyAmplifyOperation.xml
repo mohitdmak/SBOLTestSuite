@@ -5,8 +5,11 @@
     <sbol:displayId>dna_construct</sbol:displayId>
     <dcterms:title>dna_construct</dcterms:title>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+	<sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+	<sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
     <sbol:type rdf:resource="http://identifiers.org/so/SO:0000984"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
   </sbol:ComponentDefinition>
   <sbol:ComponentDefinition rdf:about="http://sbolstandard.org/build/my_amplified_dna">
     <sbol:persistentIdentity rdf:resource="http://sbolstandard.org/build/my_amplified_dna"/>

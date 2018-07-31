@@ -11,7 +11,8 @@
     <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/tetR"/>
     <sbol:displayId>tetR</sbol:displayId>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:component>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+	<sbol:component>
       <sbol:Component rdf:about="http://www.async.ece.utah.edu/tetR/component">
         <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/tetR/component"/>
         <sbol:displayId>component</sbol:displayId>

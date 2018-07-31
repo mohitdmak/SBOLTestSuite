@@ -122,6 +122,7 @@
           <sbol:GenericLocation rdf:about="https://synbiohub.org/public/igem/BBa_E0422/annotation942815/gl942815/1">
             <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0422/annotation942815/gl942815"/>
             <sbol:displayId>gl942815</sbol:displayId>
+			<sbol:version>1</sbol:version>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
           </sbol:GenericLocation>
         </sbol:location>

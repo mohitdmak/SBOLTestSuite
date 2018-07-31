@@ -802,8 +802,8 @@
     <sbol:template rdf:resource="http://www.virtualparts.org/part/GFP_Reporter_Template/1"/>
     <sbol:strategy rdf:resource="http://sbols.org/v2#sample"/>
 	 <sbol:variableComponent>
-      <sbol:VariableComponent rdf:about="http://www.virtualparts.org/part/GFP_Reporter_Template/Pro_Component_VariableComponent/1">
-        <sbol:persistentIdentity rdf:resource="http://www.virtualparts.org/part/GFP_Reporter_Template/Pro_Component_VariableComponent"/>
+      <sbol:VariableComponent rdf:about="http://www.virtualparts.org/part/GFP_Reporter_Template_CombinatorialDerivation_Sample/Pro_Component_VariableComponent/1">
+        <sbol:persistentIdentity rdf:resource="http://www.virtualparts.org/part/GFP_Reporter_Template_CombinatorialDerivation_Sample/Pro_Component_VariableComponent"/>
         <sbol:displayId>Pro_Component_VariableComponent</sbol:displayId>
         <sbol:version>1</sbol:version>
         <sbol:variable rdf:resource="http://michael.zhang/GFP_Reporter_Template/Pro_Component/1"/>
@@ -833,7 +833,6 @@
     <dcterms:description>Constitutive promoter</dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
-    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000613"/>
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://www.virtualparts.org/part/BBa_J23119/cutat12">
         <sbol:persistentIdentity rdf:resource="http://www.virtualparts.org/part/BBa_J23119/cutat12"/>
@@ -882,9 +881,9 @@
       </sbol:SequenceConstraint>
     </sbol:sequenceConstraint>
   </sbol:ComponentDefinition>
-   <prov:Plan rdf:about="http://www.virtualparts.org/part/characterization_protocol/1.0.0">
-    <sbol:displayId>characterization_protocol</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://www.virtualparts.org/part/characterization_protocol"/>
+   <prov:Plan rdf:about="http://www.virtualparts.org/part/characterization_protocol_plan/1.0.0">
+    <sbol:displayId>characterization_protocol_plan</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://www.virtualparts.org/part/characterization_protocol_plan"/>
     <sbol:version>1.0.0</sbol:version>
 	<dcterms:created>2003-12-04T12:00:00Z</dcterms:created>
   </prov:Plan>
@@ -900,7 +899,8 @@
     <sbol:persistentIdentity rdf:resource="http://www.virtualparts.org/part/GenericLocationComponent"/>
     <sbol:displayId>GenericLocationComponent</sbol:displayId>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequenceAnnotation>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+	<sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://www.virtualparts.org/part/GenericLocationComponent/gl_seqAnn">
         <sbol:persistentIdentity rdf:resource="http://www.virtualparts.org/part/GenericLocationComponent/gl_seqAnn"/>
         <sbol:displayId>gl_seqAnn</sbol:displayId>

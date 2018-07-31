@@ -138,10 +138,10 @@
       </sbol:FunctionalComponent>
     </sbol:functionalComponent>
     <sbol:module>
-      <sbol:Module rdf:about="http://sbolstandard.org/example/toggle_switch2/laci_inverter">
-        <sbol:persistentIdentity rdf:resource="http://sbolstandard.org/example/toggle_switch2/laci_inverter"/>
-        <sbol:displayId>laci_inverter</sbol:displayId>
-        <sbol:definition rdf:resource="http://sbolstandard.org/example/toggle_switch2"/>
+      <sbol:Module rdf:about="http://sbolstandard.org/example/toggle_switch2/laci_inverter_module">
+        <sbol:persistentIdentity rdf:resource="http://sbolstandard.org/example/toggle_switch2/laci_inverter_module"/>
+        <sbol:displayId>laci_inverter_module</sbol:displayId>
+        <sbol:definition rdf:resource="http://sbolstandard.org/example/laci_inverter_module"/>
       </sbol:Module>
     </sbol:module>
     <sbol:module>

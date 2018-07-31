@@ -12,7 +12,8 @@
     <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/GenericLocationComponent"/>
     <sbol:displayId>GenericLocationComponent</sbol:displayId>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequenceAnnotation>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+	<sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/GenericLocationComponent/gl_seqAnn">
         <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/GenericLocationComponent/gl_seqAnn"/>
         <sbol:displayId>gl_seqAnn</sbol:displayId>
