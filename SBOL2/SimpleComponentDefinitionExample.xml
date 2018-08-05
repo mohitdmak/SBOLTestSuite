@@ -7,8 +7,8 @@
     <dcterms:title>J23119 promoter</dcterms:title>
     <dcterms:description>Constitutive promoter</dcterms:description>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/chebi/CHEBI:4705"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
-	<sbol:type rdf:resource="http://identifiers.org/chebi/CHEBI:4705"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000613"/>
     <sbol:sequence rdf:resource="http://partsregistry.org/seq/BBa_J23119"/>
   </sbol:ComponentDefinition>
