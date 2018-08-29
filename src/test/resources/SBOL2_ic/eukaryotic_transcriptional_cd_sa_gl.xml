@@ -28,5 +28,6 @@
         </sbol:location>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
-  </sbol:ComponentDefinition>
+	  </sbol:ComponentDefinition>
+
 </rdf:RDF>

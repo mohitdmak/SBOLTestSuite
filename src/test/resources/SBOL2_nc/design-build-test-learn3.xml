@@ -25,6 +25,16 @@
     <sbol:language rdf:resource="http://identifiers.org/edam/format_2585"/>
     <sbol:framework rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000062"/>
   </sbol:Model>
+  <prov:Activity rdf:about="http://sys-bio.org/Activity_fit_model_generation/1.0.0">
+    <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_fit_model_generation"/>
+    <sbol:displayId>Activity_fit_model_generation</sbol:displayId>
+    <sbol:version>1.0.0</sbol:version>
+  </prov:Activity>
+  <prov:Activity rdf:about="http://sys-bio.org/Activity_design_generation/1.0.0">
+    <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_design_generation"/>
+    <sbol:displayId>Activity_design_generation</sbol:displayId>
+    <sbol:version>1.0.0</sbol:version>
+  </prov:Activity>
   <prov:Activity rdf:about="http://sys-bio.org/Activity_raw_data_generation/1.0.0">
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_raw_data_generation"/>
     <sbol:displayId>Activity_raw_data_generation</sbol:displayId>
@@ -34,26 +44,16 @@
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_build_generation"/>
     <sbol:displayId>Activity_build_generation</sbol:displayId>
     <sbol:version>1.0.0</sbol:version>
-    <prov:qualifiedAssociation>
+	  <prov:qualifiedAssociation>
       <prov:Association rdf:about="http://sys-bio.org/Activity_build_generation/build_generation_association/1.0.0">
-        <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_build_generation/build_generation_association"/>
         <sbol:displayId>build_generation_association</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_build_generation/build_generation_association"/>
         <sbol:version>1.0.0</sbol:version>
-        <prov:hadRole rdf:resource="http://sbols.org/v2#build"/>
         <prov:agent rdf:resource="https://synbiohub.org/jdoe/1.0.0"/>
         <prov:hadPlan rdf:resource="http://sys-bio.org/Plan_gibson_assembly/1.0.0"/>
+        <prov:hadRole rdf:resource="http://sbols.org/v2#build"/>
       </prov:Association>
     </prov:qualifiedAssociation>
-  </prov:Activity>
-  <prov:Activity rdf:about="http://sys-bio.org/Activity_design_generation/1.0.0">
-    <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_design_generation"/>
-    <sbol:displayId>Activity_design_generation</sbol:displayId>
-    <sbol:version>1.0.0</sbol:version>
-  </prov:Activity>
-  <prov:Activity rdf:about="http://sys-bio.org/Activity_fit_model_generation/1.0.0">
-    <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Activity_fit_model_generation"/>
-    <sbol:displayId>Activity_fit_model_generation</sbol:displayId>
-    <sbol:version>1.0.0</sbol:version>
   </prov:Activity>
   <prov:Plan rdf:about="http://sys-bio.org/Plan_model_fitting/1.0.0">
     <sbol:persistentIdentity rdf:resource="http://sys-bio.org/Plan_model_fitting"/>

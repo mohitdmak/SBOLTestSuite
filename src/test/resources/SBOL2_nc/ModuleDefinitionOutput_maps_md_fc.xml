@@ -20,7 +20,7 @@
         <sbol:definition rdf:resource="http://identifiers.org/uniprot/P03023"/>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
         <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
-        <sbol:mapsTo>
+		 <sbol:mapsTo>
           <sbol:MapsTo rdf:about="http://sbolstandard.org/example/toggle_switch/LacI/LacI_mapping">
             <sbol:persistentIdentity rdf:resource="http://sbolstandard.org/example/toggle_switch/LacI/LacI_mapping"/>
             <sbol:displayId>LacI_mapping</sbol:displayId>

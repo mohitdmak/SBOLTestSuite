@@ -4,7 +4,7 @@
     <sbol:persistentIdentity rdf:resource="http://michael.zhang/GFP_Reporter_Template_CombinatorialDerivation_Sample"/>
     <sbol:displayId>GFP_Reporter_Template_CombinatorialDerivation_Sample</sbol:displayId>
     <sbol:version>1</sbol:version>
-    <dc:creator>Michael Zhang</dc:creator>
+	<dc:creator>Michael Zhang</dc:creator>
     <sbol:template rdf:resource="http://michael.zhang/GFP_Reporter_Template/1"/>
     <sbol:strategy rdf:resource="http://sbols.org/v2#sample"/>
     <sbol:variableComponent>

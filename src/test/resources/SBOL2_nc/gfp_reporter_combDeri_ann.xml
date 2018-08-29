@@ -3,8 +3,8 @@
   <sbol:CombinatorialDerivation rdf:about="http://michael.zhang/GFP_Reporter_Template_CombinatorialDerivation_Sample/1">
     <sbol:persistentIdentity rdf:resource="http://michael.zhang/GFP_Reporter_Template_CombinatorialDerivation_Sample"/>
     <sbol:displayId>GFP_Reporter_Template_CombinatorialDerivation_Sample</sbol:displayId>
+	<dc:creator>Michael Zhang</dc:creator>
     <sbol:version>1</sbol:version>
-    <dc:creator>Michael Zhang</dc:creator>
     <sbol:template rdf:resource="http://michael.zhang/GFP_Reporter_Template/1"/>
     <sbol:strategy rdf:resource="http://sbols.org/v2#sample"/>
     <sbol:variableComponent>
