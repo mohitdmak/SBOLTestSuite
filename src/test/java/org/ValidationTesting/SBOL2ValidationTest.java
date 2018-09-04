@@ -86,7 +86,7 @@ public class SBOL2ValidationTest {
 				throws IOException, SBOLConversionException, SBOLValidationException {
 			SBOLReader.setKeepGoing(true);
 			SBOLDocument doc = SBOLReader.read(file);
-			SBOLValidate.validateSBOL(doc, true, true, true);
+			SBOLValidate.validateSBOL(doc, false, false, false);
 
 			if (SBOLReader.getNumErrors() > 0 || SBOLValidate.getNumErrors() > 0) {
 				System.out.println("Test Fail for SBOL2 : " + file.getName());
@@ -114,26 +114,31 @@ public class SBOL2ValidationTest {
 				// bw.close();
 				fail();
 			}
+			else
+			{
+				FileUtils.copyFile(file, new File("C:\\Users\\Meher\\Documents\\Masters_Program\\SBOLTestSuite\\src\\test\\resources\\SBOL2_nc\\" + file.getName()));				
+				FileUtils.forceDelete(new File("C:\\Users\\Meher\\Documents\\Masters_Program\\SBOLTestSuite\\src\\test\\resources\\SBOL2\\" + file.getName()));
+			}
 			
 		}
 
 	}
 
-	@RunWith(Parameterized.class)
+/*	@RunWith(Parameterized.class)
 	public static class SBOL2IC {
 		private File file;
 
-		/**
+		*//**
 		 * @param file
 		 *            - file to test
-		 */
+		 *//*
 		public SBOL2IC(File file) {
 			this.file = file;
 		}
 
-		/**
+		*//**
 		 * @return a set of files to test
-		 */
+		 *//*
 		@Parameterized.Parameters
 		public static java.util.Collection<File> files() {
 			File file_base = null;
@@ -152,7 +157,7 @@ public class SBOL2ValidationTest {
 			return col;
 		}
 
-		/**
+		*//**
 		 * Run each xml/XML file under the "Validation" sub-directory to test SBOL
 		 * validation exceptions.
 		 * 
@@ -162,7 +167,7 @@ public class SBOL2ValidationTest {
 		 *             see {@link SBOLConversionException}
 		 * @throws SBOLValidationException
 		 *             see {@link SBOLValidationException}
-		 */
+		 *//*
 		@Test
 		public void runValidation()
 				throws IOException, SBOLConversionException, SBOLValidationException {
@@ -203,17 +208,17 @@ public class SBOL2ValidationTest {
 	public static class SBOL2NC {
 		private File file;
 
-		/**
+		*//**
 		 * @param file
 		 *            - file to test
-		 */
+		 *//*
 		public SBOL2NC(File file) {
 			this.file = file;
 		}
 
-		/**
+		*//**
 		 * @return a set of files to test
-		 */
+		 *//*
 		@Parameterized.Parameters
 		public static java.util.Collection<File> files() {
 			File file_base = null;
@@ -231,7 +236,7 @@ public class SBOL2ValidationTest {
 			return col;
 		}
 
-		/**
+		*//**
 		 * Run each xml/XML file under the "Validation" sub-directory to test SBOL
 		 * validation exceptions.
 		 * 
@@ -241,7 +246,7 @@ public class SBOL2ValidationTest {
 		 *             see {@link SBOLConversionException}
 		 * @throws SBOLValidationException
 		 *             see {@link SBOLValidationException}
-		 */
+		 *//*
 		@Test
 		public void runValidation()
 				throws IOException, SBOLConversionException, SBOLValidationException {
@@ -282,17 +287,17 @@ public class SBOL2ValidationTest {
 	public static class SBOL2BP {
 		private File file;
 
-		/**
+		*//**
 		 * @param file
 		 *            - file to test
-		 */
+		 *//*
 		public SBOL2BP(File file) {
 			this.file = file;
 		}
 
-		/**
+		*//**
 		 * @return a set of files to test
-		 */
+		 *//*
 		@Parameterized.Parameters
 		public static java.util.Collection<File> files() {
 			File file_base = null;
@@ -310,7 +315,7 @@ public class SBOL2ValidationTest {
 			return col;
 		}
 
-		/**
+		*//**
 		 * Run each xml/XML file under the "Validation" sub-directory to test SBOL
 		 * validation exceptions.
 		 * 
@@ -320,7 +325,7 @@ public class SBOL2ValidationTest {
 		 *             see {@link SBOLConversionException}
 		 * @throws SBOLValidationException
 		 *             see {@link SBOLValidationException}
-		 */
+		 *//*
 		@Test
 		public void runValidation()
 				throws IOException, SBOLConversionException, SBOLValidationException {
@@ -356,5 +361,5 @@ public class SBOL2ValidationTest {
 		}
 
 	}
-
+*/
 }
