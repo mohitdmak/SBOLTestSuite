@@ -17,7 +17,16 @@ The repository is organized into the following directories :
 
 # Submitting a SBOL Test File
 
+The SBOLTestSuite offers validation programs for each of the testing directories to ensure each of the files within the directories meet the requirements of that directory. For example, an example SBOL file placed in the SBOL2 directory should be compliant, complete, and should meet best practices. The SBOL2 validation script will test for this. 
+
+Submission of new files should follow the workflow below to add new SBOL test files to the repository. 
+
+1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository.  
+2. Add the test file to the correct directory as described above. 
+3. Run the validation scripts found within the 'src/test' directory. 
+4. If scripts are passing, submit a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/). 
 
 # Running Characterization Profile
+
 
 
