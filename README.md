@@ -18,7 +18,6 @@ The repository is organized into the following directories :
 # Submitting a SBOL Test File
 
 
-
 # Running Characterization Profile
 
 
