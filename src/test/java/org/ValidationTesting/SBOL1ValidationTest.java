@@ -37,7 +37,7 @@ public class SBOL1ValidationTest {
 		java.util.Collection<File> col = new HashSet<File>();
 
 		try {
-			file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL1/").toURI());
+			file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL1/").toURI());
 		} catch (URISyntaxException e1) {
 			e1.printStackTrace();
 		}

@@ -59,7 +59,7 @@ public class SBOL2ValidationTest {
 			java.util.Collection<File> col = new HashSet<File>();
 
 			try {
-				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL2/").toURI());
+				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL2/").toURI());
 			} catch (URISyntaxException e1) {
 				e1.printStackTrace();
 			}
@@ -141,7 +141,7 @@ public class SBOL2ValidationTest {
 			java.util.Collection<File> col = new HashSet<File>();
 
 			try {
-				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL2_ic/").toURI());
+				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL2_ic/").toURI());
 			} catch (URISyntaxException e1) {
 				e1.printStackTrace();
 			}
@@ -221,7 +221,7 @@ public class SBOL2ValidationTest {
 			java.util.Collection<File> col = new HashSet<File>();
 
 			try {
-				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL2_nc/").toURI());
+				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL2_nc/").toURI());
 			} catch (URISyntaxException e1) {
 				e1.printStackTrace();
 			}
@@ -300,7 +300,7 @@ public class SBOL2ValidationTest {
 			java.util.Collection<File> col = new HashSet<File>();
 
 			try {
-				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL2_bp/").toURI());
+				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL2_bp/").toURI());
 			} catch (URISyntaxException e1) {
 				e1.printStackTrace();
 			}
