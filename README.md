@@ -24,9 +24,9 @@ Submission of new files should follow the workflow below to add new SBOL test fi
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository.  
 2. Add the test file to the correct directory as described above. 
 3. Run the validation scripts found within the 'src/test' directory. 
-4. If scripts are passing, submit a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/). 
+4. If the files are successfully validated, submit a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/). 
 
 # Running Characterization Profile
 
-
+In addition to having a repository that simply hosts examples representing the SBOL data model, there exists a characterization program which determines the level of SBOL support within the SBOL2 examples. This characterization profile forms clusters based on the common SBOL data types found across a set of examples. Once these clusters are created, a graph is created showing subset relations between clusters based on their data types. The graph also colors the clusters based on the type of SBOL data found within the set of examples in the cluster.  
 
