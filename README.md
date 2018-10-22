@@ -30,4 +30,4 @@ Submission of new files should follow the workflow below to add new SBOL test fi
 
 In addition to having a repository that simply hosts examples representing the SBOL data model, there exists a characterization program which determines the level of SBOL support within the SBOL2 examples. This characterization profile forms clusters based on the common SBOL data types found across a set of examples. Once these clusters are created, a graph is created showing subset relations between clusters based on their data types. The graph also colors the clusters based on the type of SBOL data found within the set of examples in the cluster. 
 
-![alt text](blob:null/41dc46d1-d8f7-4e3a-ab49-434279aa7b61)
+![alt text](https://github.com/SynBioDex/SBOLTestSuite/blob/d531992a9d4a90f69eee33d379dd191b28b6ac7c/site_resources/graph.pdf)
