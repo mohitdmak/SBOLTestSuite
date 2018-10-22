@@ -31,3 +31,15 @@ Submission of new files should follow the workflow below to add new SBOL test fi
 In addition to having a repository that simply hosts examples representing the SBOL data model, there exists a characterization program which determines the level of SBOL support within the SBOL2 examples. This characterization profile forms clusters based on the common SBOL data types found across a set of examples. Once these clusters are created, a graph is created showing subset relations between clusters based on their data types. The graph also colors the clusters based on the type of SBOL data found within the set of examples in the cluster. The graph is paired with a text file named 'Class Relation Data' which provides extra information regarding each cluster including the data types found. 
 
 ![graph](site_resources/graph-1.png "Characterization Graph Output")
+
+### Retrieving Characterization Profile 
+
+1. [Setup](http://maven.apache.org/download.cgi) Apache Maven. A tutorial on using Apache Maven is provided [here](http://maven.apache.org/guides/getting-started/index.html).
+
+2. In the command line, change to the directory of the SBOLTestRunner (e.g. ```cd /path/to/SBOLTestSuite```) and execute the following command
+
+```
+mvn package
+```
+
+This will compile the SBOLTestSuite source files, package the compiled source into a SBOLTestSuite JAR file (```SBOLTestSuite-<version>-SNAPSHOT-withDependencies.jar```), and place the JAR file into the ```core2/target``` sub-directory.
