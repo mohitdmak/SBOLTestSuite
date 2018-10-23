@@ -10,9 +10,9 @@ The repository is organized into the following directories :
 3. RDF :  A series of SBOL files encoded using RDF format. 
 4. SBOL1 : SBOL files which encode the SBOL1 data model. 
 5. SBOL2 : SBOL files that are compliant, complete, and adhere to best practices.
-6. SBOL2_ic : SBOL files that are complete, but not compliant or follow best practices.
-7. SBOL2_nc : SBOL files that are not compliant, complete, or follow best practices. 
-8. SBOL2_bp : SBOL files that are compliant and complete, but do not follow best practices. 
+6. SBOL2_bp : SBOL files that are compliant and complete, but do not follow best practices. 
+7. SBOL2_ic : SBOL files that are incomplete, but are compliant.
+8. SBOL2_nc : SBOL files that are not compliant.
 ```
 
 # Submitting a SBOL Test File
