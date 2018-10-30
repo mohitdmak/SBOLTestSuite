@@ -1,1 +1,12 @@
 /.DS_Store
+/target/
+/bin/
+/.project
+/.classpath
+class_stats.csv
+count_classes.csv
+class_relation_data.txt
+Cluster_Class_Data.txt
+Cluster_File_Data.txt
+graph_completeness.txt
+graph.dot
