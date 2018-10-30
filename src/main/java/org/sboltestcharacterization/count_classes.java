@@ -1,22 +1,17 @@
 package org.sboltestcharacterization;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
 import org.sbolstandard.core2.Activity;
-import org.sbolstandard.core2.Annotation;
 import org.sbolstandard.core2.Association;
-import org.sbolstandard.core2.Collection;
 import org.sbolstandard.core2.CombinatorialDerivation;
 import org.sbolstandard.core2.Component;
 import org.sbolstandard.core2.ComponentDefinition;
@@ -25,8 +20,6 @@ import org.sbolstandard.core2.FunctionalComponent;
 import org.sbolstandard.core2.GenericLocation;
 import org.sbolstandard.core2.Interaction;
 import org.sbolstandard.core2.Location;
-import org.sbolstandard.core2.MapsTo;
-import org.sbolstandard.core2.Model;
 import org.sbolstandard.core2.Module;
 import org.sbolstandard.core2.ModuleDefinition;
 import org.sbolstandard.core2.Range;
@@ -35,7 +28,6 @@ import org.sbolstandard.core2.SBOLDocument;
 import org.sbolstandard.core2.SBOLReader;
 import org.sbolstandard.core2.SBOLValidationException;
 import org.sbolstandard.core2.SequenceAnnotation;
-import org.sbolstandard.core2.SequenceConstraint;
 import org.sbolstandard.core2.TopLevel;
 
 public class count_classes {
@@ -686,3 +678,4 @@ public class count_classes {
 	}
 
 }
+
