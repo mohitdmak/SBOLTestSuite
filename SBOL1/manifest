@@ -15,13 +15,13 @@ labhost_Saccharomyces_cerevisiae.xml
 labhost_Schizosaccharomyces_pombe.xml
 labhost_Unspecified.xml
 pACPc_invF.xml
+pIKE_pTAK_cassettes.xml
+pIKE_pTAK_cassettes_2.xml
+pIKE_pTAK_left_right_cassettes.xml
+pIKE_pTAK_toggle_switches.xml
 partial_pIKE_left_cassette.xml
 partial_pIKE_right_casette.xml
 partial_pIKE_right_cassette.xml
 partial_pTAK_left_cassette.xml
 partial_pTAK_right_cassette.xml
-pIKE_pTAK_cassettes 2.xml
-pIKE_pTAK_cassettes.xml
-pIKE_pTAK_left_right_cassettes.xml
-pIKE_pTAK_toggle_switches.xml
 precedesTest.xml
