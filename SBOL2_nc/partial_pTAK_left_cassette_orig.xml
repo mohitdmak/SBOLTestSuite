@@ -191,3 +191,4 @@
     <sbol:elements>gcatgcacagataaccatctgcggtgataaattatctctggcggtgttgacataaataccactggcggttataatgagcacatcagcagg</sbol:elements>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
+</rdf:RDF>
