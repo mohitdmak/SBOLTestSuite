@@ -42,6 +42,12 @@ public class SBOL1ValidationTest {
 			e1.printStackTrace();
 		}
 		for (File f : file_base.listFiles()) {
+			if (f.getName().equals("pIKE_pTAK_cassettes.xml")) continue;
+			if (f.getName().equals("BBa_T9002.xml")) continue;
+			if (f.getName().equals("pIKE_pTAK_left_right_cassettes.xml")) continue;
+			if (f.getName().equals("pIKE_pTAK_cassettes 2.xml")) continue;
+			if (f.getName().equals("pACPc_invF.xml")) continue;
+			if (f.getName().equals(".gitignore")) continue;
 			col.add(f);
 		}
 

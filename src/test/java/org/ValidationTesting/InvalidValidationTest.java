@@ -56,6 +56,7 @@ public class InvalidValidationTest {
 			e1.printStackTrace();
 		}
 		for (File f : file_base.listFiles()) {
+			if (f.getName().equals(".gitignore")) continue;
 			col.add(f);
 		}
 		return col;

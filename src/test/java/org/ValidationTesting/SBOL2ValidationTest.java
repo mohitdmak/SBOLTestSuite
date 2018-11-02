@@ -64,6 +64,7 @@ public class SBOL2ValidationTest {
 				e1.printStackTrace();
 			}
 			for (File f : file_base.listFiles()) {
+				if (f.getName().equals(".gitignore")) continue;
 				col.add(f);
 			}
 
@@ -147,6 +148,7 @@ public class SBOL2ValidationTest {
 			}
 
 			for (File f : file_base.listFiles()) {
+				if (f.getName().equals(".gitignore")) continue;
 				col.add(f);
 			}
 
@@ -226,6 +228,7 @@ public class SBOL2ValidationTest {
 				e1.printStackTrace();
 			}
 			for (File f : file_base.listFiles()) {
+				if (f.getName().equals(".gitignore")) continue;
 				col.add(f);
 			}
 
@@ -305,6 +308,7 @@ public class SBOL2ValidationTest {
 				e1.printStackTrace();
 			}
 			for (File f : file_base.listFiles()) {
+				if (f.getName().equals(".gitignore")) continue;
 				col.add(f);
 			}
 
