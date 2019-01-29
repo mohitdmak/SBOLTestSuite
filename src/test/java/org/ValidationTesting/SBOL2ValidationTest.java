@@ -1,18 +1,10 @@
 package org.ValidationTesting;
 
-import java.io.BufferedWriter;
-
-import java.io.FileWriter;
-
-
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.HashSet;
 
-import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -23,7 +15,6 @@ import org.sbolstandard.core2.SBOLDocument;
 import org.sbolstandard.core2.SBOLReader;
 import org.sbolstandard.core2.SBOLValidate;
 import org.sbolstandard.core2.SBOLValidationException;
-import org.sbolstandard.core2.SBOLWriter;
 
 import static org.junit.Assert.*;
 
@@ -59,12 +50,13 @@ public class SBOL2ValidationTest {
 			java.util.Collection<File> col = new HashSet<File>();
 
 			try {
-				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL2/").toURI());
+				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL2/").toURI());
 			} catch (URISyntaxException e1) {
 				e1.printStackTrace();
 			}
 			for (File f : file_base.listFiles()) {
 				if (f.getName().equals(".gitignore")) continue;
+				if (f.getName().equals("manifest")) continue;
 				col.add(f);
 			}
 
@@ -98,19 +90,19 @@ public class SBOL2ValidationTest {
 				// BufferedWriter bw = new BufferedWriter(new FileWriter(new
 				// File(errorFileName)));
 
-				for (String error : SBOLReader.getErrors()) {
+				//for (String error : SBOLReader.getErrors()) {
 					//System.out.println(error);
 					// bw.write(error);
 					// bw.write("\n");
-				}
+				//}
 
 
-				for (String error : SBOLValidate.getErrors()) {
+				//for (String error : SBOLValidate.getErrors()) {
 					//System.out.println(error);
 
 					// bw.write(error);
 					// bw.write("\n");
-				}
+				//}
 
 				// bw.close();
 				fail();
@@ -142,13 +134,14 @@ public class SBOL2ValidationTest {
 			java.util.Collection<File> col = new HashSet<File>();
 
 			try {
-				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL2_ic/").toURI());
+				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL2_ic/").toURI());
 			} catch (URISyntaxException e1) {
 				e1.printStackTrace();
 			}
 
 			for (File f : file_base.listFiles()) {
 				if (f.getName().equals(".gitignore")) continue;
+				if (f.getName().equals("manifest")) continue;
 				col.add(f);
 			}
 
@@ -223,12 +216,13 @@ public class SBOL2ValidationTest {
 			java.util.Collection<File> col = new HashSet<File>();
 
 			try {
-				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL2_nc/").toURI());
+				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL2_nc/").toURI());
 			} catch (URISyntaxException e1) {
 				e1.printStackTrace();
 			}
 			for (File f : file_base.listFiles()) {
 				if (f.getName().equals(".gitignore")) continue;
+				if (f.getName().equals("manifest")) continue;
 				col.add(f);
 			}
 
@@ -303,12 +297,13 @@ public class SBOL2ValidationTest {
 			java.util.Collection<File> col = new HashSet<File>();
 
 			try {
-				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL2_bp/").toURI());
+				file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL2_bp/").toURI());
 			} catch (URISyntaxException e1) {
 				e1.printStackTrace();
 			}
 			for (File f : file_base.listFiles()) {
 				if (f.getName().equals(".gitignore")) continue;
+				if (f.getName().equals("manifest")) continue;
 				col.add(f);
 			}
 

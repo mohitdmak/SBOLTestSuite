@@ -51,12 +51,13 @@ public class InvalidValidationTest {
 		File file_base = null;
 		java.util.Collection<File> col = new HashSet<File>();
 		try {
-			file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/InvalidFiles/").toURI());
+			file_base = new File(SBOL2ValidationTest.class.getResource("/InvalidFiles/").toURI());
 		} catch (URISyntaxException e1) {
 			e1.printStackTrace();
 		}
 		for (File f : file_base.listFiles()) {
 			if (f.getName().equals(".gitignore")) continue;
+			if (f.getName().equals("manifest")) continue;
 			col.add(f);
 		}
 		return col;

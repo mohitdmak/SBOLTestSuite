@@ -1,6 +1,5 @@
 AnnotationOutput.xml
 BBa_I0462.xml
-BBa_T9002.xml
 CD_SA_Cut_Example.xml
 CD_SA_Range_Example.xml
 Collection.xml
@@ -13,7 +12,6 @@ CreateAndRemoveComponentDefinition.xml
 CreateAndRemoveGenericTopLevel.xml
 CreateAndRemoveModel.xml
 CreateAndRemoveModuleDefinition.xml
-CutExample.xml
 EF587312.xml
 GenericTopLevelOutput.xml
 GenericTopLevelOutput_ann.xml
@@ -22,8 +20,6 @@ ModuleDefinitionOutput.xml
 ModuleDefinitionOutput_int_md_ann.xml
 Provenance_CodonOptimization.xml
 Provenance_CodonOptimization_Agent_Act_CD.xml
-Provenance_SpecifyAmplifyOperation.xml
-Provenance_SpecifyCutOperation.xml
 Provenance_SpecifyCutOperation_Ag.xml
 Provenance_SpecifyCutOperation_Ag_Act.xml
 Provenance_SpecifyCutOperation_ag_ann.xml
@@ -61,6 +57,7 @@ memberAnnotations_md_mod_ann.xml
 multipleCollections_no_Members.xml
 multipleGenericTopLevel.xml
 multipleSequences.xml
+pIKE_pTAK_cassettes 2.xml
 pIKE_pTAK_cassettes.xml
 pIKE_pTAK_cassettes_2.xml
 pIKE_pTAK_left_right_cassettes.xml

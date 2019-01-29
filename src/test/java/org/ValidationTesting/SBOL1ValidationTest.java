@@ -37,7 +37,7 @@ public class SBOL1ValidationTest {
 		java.util.Collection<File> col = new HashSet<File>();
 
 		try {
-			file_base = new File(SBOL2ValidationTest.class.getResource("/SBOLTestSuite/SBOL1/").toURI());
+			file_base = new File(SBOL2ValidationTest.class.getResource("/SBOL1/").toURI());
 		} catch (URISyntaxException e1) {
 			e1.printStackTrace();
 		}
@@ -45,9 +45,10 @@ public class SBOL1ValidationTest {
 			if (f.getName().equals("pIKE_pTAK_cassettes.xml")) continue;
 			if (f.getName().equals("BBa_T9002.xml")) continue;
 			if (f.getName().equals("pIKE_pTAK_left_right_cassettes.xml")) continue;
-			if (f.getName().equals("pIKE_pTAK_cassettes 2.xml")) continue;
+			if (f.getName().equals("pIKE_pTAK_cassettes_2.xml")) continue;
 			if (f.getName().equals("pACPc_invF.xml")) continue;
 			if (f.getName().equals(".gitignore")) continue;
+			if (f.getName().equals("manifest")) continue;
 			col.add(f);
 		}
 
