@@ -15,6 +15,7 @@ CreateAndRemoveModuleDefinition.xml
 EF587312.xml
 GenericTopLevelOutput.xml
 GenericTopLevelOutput_ann.xml
+LocationToSequenceOutput.xml
 ModelOutput.xml
 ModuleDefinitionOutput.xml
 ModuleDefinitionOutput_int_md_ann.xml
