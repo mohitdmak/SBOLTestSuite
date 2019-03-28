@@ -17,14 +17,6 @@
     <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:component>
-      <sbol:Component rdf:about="http://partsregistry.org/Part:BBa_I0462/component2">
-        <sbol:persistentIdentity rdf:resource="http://partsregistry.org/Part:BBa_I0462/component2"/>
-        <sbol:displayId>component2</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="http://partsregistry.org/Part:BBa_B0015"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
       <sbol:Component rdf:about="http://partsregistry.org/Part:BBa_I0462/component0">
         <sbol:persistentIdentity rdf:resource="http://partsregistry.org/Part:BBa_I0462/component0"/>
         <sbol:displayId>component0</sbol:displayId>
@@ -38,6 +30,14 @@
         <sbol:displayId>component1</sbol:displayId>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
         <sbol:definition rdf:resource="http://partsregistry.org/Part:BBa_C0062"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://partsregistry.org/Part:BBa_I0462/component2">
+        <sbol:persistentIdentity rdf:resource="http://partsregistry.org/Part:BBa_I0462/component2"/>
+        <sbol:displayId>component2</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://partsregistry.org/Part:BBa_B0015"/>
       </sbol:Component>
     </sbol:component>
     <sbol:sequenceAnnotation>
