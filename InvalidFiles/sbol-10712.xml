@@ -31,7 +31,11 @@
           <sbol:Range rdf:about="http://partsregistry.org/cd/cd_comp/base2/seq_base2">
             <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/cd_comp/base2/seq_base2"/>
             <sbol:displayId>seq_base2</sbol:displayId>
+<<<<<<< HEAD
+            <sbol:start>5</sbol:start>
+=======
             <sbol:start>4</sbol:start>
+>>>>>>> 87dce0cc469606b416f2ce8535d776a460a7d0df
             <sbol:end>14</sbol:end>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
           </sbol:Range>
@@ -64,7 +68,11 @@
             <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/cd_comp/base_s2/base_c2"/>
             <sbol:displayId>base_c2</sbol:displayId>
             <sbol:start>12</sbol:start>
+<<<<<<< HEAD
+            <sbol:end>24</sbol:end>
+=======
             <sbol:end>25</sbol:end>
+>>>>>>> 87dce0cc469606b416f2ce8535d776a460a7d0df
             <sbol:sequence rdf:resource="http://partsregistry.org/seq/seq_comp"/>
           </sbol:Range>
         </sbol:location>
@@ -102,7 +110,11 @@
   <sbol:Sequence rdf:about="http://partsregistry.org/seq/seq_comp">
     <sbol:persistentIdentity rdf:resource="http://partsregistry.org/seq/seq_comp"/>
     <sbol:displayId>seq_comp</sbol:displayId>
+<<<<<<< HEAD
+    <sbol:elements>ttgacagctagttgacagctag</sbol:elements>
+=======
     <sbol:elements>acagctagctacagctagctgcc</sbol:elements>
+>>>>>>> 87dce0cc469606b416f2ce8535d776a460a7d0df
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
 </rdf:RDF>
