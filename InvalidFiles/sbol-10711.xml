@@ -29,12 +29,14 @@
         <sbol:definition rdf:resource="http://partsregistry.org/cd/cd_base_2"/>
         <sbol:sourceLocation>
           <sbol:Range rdf:about="http://partsregistry.org/cd/cd_comp/base2/seq_base2a">
-            <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/cd_comp/base2/seq_base2"/>
+            <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/cd_comp/base2/seq_base2a"/>
             <sbol:displayId>seq_base2a</sbol:displayId>
             <sbol:start>1</sbol:start>
             <sbol:end>5</sbol:end>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
           </sbol:Range>
+        </sbol:sourceLocation>
+        <sbol:sourceLocation>
           <sbol:Range rdf:about="http://partsregistry.org/cd/cd_comp/base2/seq_base2">
             <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/cd_comp/base2/seq_base2"/>
             <sbol:displayId>seq_base2</sbol:displayId>
@@ -109,11 +111,7 @@
   <sbol:Sequence rdf:about="http://partsregistry.org/seq/seq_comp">
     <sbol:persistentIdentity rdf:resource="http://partsregistry.org/seq/seq_comp"/>
     <sbol:displayId>seq_comp</sbol:displayId>
-<<<<<<< HEAD
     <sbol:elements>ttgacagctagttgacagctag</sbol:elements>
-=======
-    <sbol:elements>acagctagctacagctagct</sbol:elements>
->>>>>>> 87dce0cc469606b416f2ce8535d776a460a7d0df
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
 </rdf:RDF>
