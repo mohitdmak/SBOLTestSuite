@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:om="http://www.ontology-of-units-of-measure.org/page/om-2#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#">
   <sbol:ComponentDefinition rdf:about="http://partsregistry.org/part/BBa_C0012">
     <sbol:persistentIdentity rdf:resource="http://partsregistry.org/part/BBa_C0012"/>
     <sbol:displayId>BBa_C0012</sbol:displayId>
@@ -84,19 +84,19 @@
       </sbol:Component>
     </sbol:component>
     <sbol:component>
-      <sbol:Component rdf:about="urn:f71298e4-a79b-4f94-ae8a-22b1f6d11d8b/component2">
-        <sbol:persistentIdentity rdf:resource="urn:f71298e4-a79b-4f94-ae8a-22b1f6d11d8b/component2"/>
-        <sbol:displayId>component2</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="urn:49f0ad6c-dec4-4b82-a989-d9ce22ac8c58"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
       <sbol:Component rdf:about="urn:f71298e4-a79b-4f94-ae8a-22b1f6d11d8b/component1">
         <sbol:persistentIdentity rdf:resource="urn:f71298e4-a79b-4f94-ae8a-22b1f6d11d8b/component1"/>
         <sbol:displayId>component1</sbol:displayId>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
         <sbol:definition rdf:resource="urn:2c324e1d-484e-4597-b92c-657b82eb8483"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="urn:f71298e4-a79b-4f94-ae8a-22b1f6d11d8b/component2">
+        <sbol:persistentIdentity rdf:resource="urn:f71298e4-a79b-4f94-ae8a-22b1f6d11d8b/component2"/>
+        <sbol:displayId>component2</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="urn:49f0ad6c-dec4-4b82-a989-d9ce22ac8c58"/>
       </sbol:Component>
     </sbol:component>
     <sbol:sequenceAnnotation>
