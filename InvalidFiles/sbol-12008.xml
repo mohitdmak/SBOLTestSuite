@@ -17,7 +17,6 @@
             <sbol:displayId>fc_measure</sbol:displayId>
             <om:hasNumericalValue>0.04</om:hasNumericalValue>
             <om:hasUnit rdf:resource="http://purl.obolibrary.org/obo/UO_0000021"/>
-            <sbol:type rdf:resource=""/>
           </om:Measure>
         </sbol:measure>
         <sbol:definition rdf:resource="http://www.async.ece.utah.edu/cd"/>
@@ -35,10 +34,9 @@
             <sbol:displayId>i_measure</sbol:displayId>
             <om:hasNumericalValue>0.04</om:hasNumericalValue>
             <om:hasUnit rdf:resource="http://purl.obolibrary.org/obo/UO_0000077"/>
-            <sbol:type rdf:resource=""/>
           </om:Measure>
         </sbol:measure>
-        <sbol:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64382"/>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000177"/>
         <sbol:participation>
           <sbol:Participation rdf:about="http://www.async.ece.utah.edu/md/i/p">
             <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/md/i/p"/>
@@ -53,7 +51,7 @@
 			    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
 			  </sbol:Sequence>
             </sbol:measure>
-            <sbol:role rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154897"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
             <sbol:participant rdf:resource="http://www.async.ece.utah.edu/md/fc"/>
           </sbol:Participation>
         </sbol:participation>
@@ -69,7 +67,6 @@
             <sbol:displayId>md_measure</sbol:displayId>
             <om:hasNumericalValue>11.28</om:hasNumericalValue>
             <om:hasUnit rdf:resource="http://purl.obolibrary.org/obo/UO_0000175"/>
-            <sbol:type rdf:resource=""/>
           </om:Measure>
         </sbol:measure>
         <sbol:definition rdf:resource="http://www.async.ece.utah.edu/empty_md"/>
@@ -80,5 +77,6 @@
     <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/cd"/>
     <sbol:displayId>cd</sbol:displayId>
     <sbol:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17634"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
   </sbol:ComponentDefinition>
 </rdf:RDF>
