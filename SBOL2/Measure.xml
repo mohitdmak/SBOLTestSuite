@@ -1,12 +1,9 @@
 <?xml version="1.0" ?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:om="http://www.ontology-of-units-of-measure.org/page/om-2#">
-<<<<<<< HEAD
-=======
   <sbol:ModuleDefinition rdf:about="http://www.async.ece.utah.edu/empty_md">
     <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/empty_md"/>
     <sbol:displayId>empty_md</sbol:displayId>
   </sbol:ModuleDefinition>
->>>>>>> a09c9e8ce51bcea0565fc4e363399831bcba5ee6
   <sbol:ModuleDefinition rdf:about="http://www.async.ece.utah.edu/md">
     <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/md"/>
     <sbol:displayId>md</sbol:displayId>
@@ -20,6 +17,7 @@
             <sbol:displayId>fc_measure</sbol:displayId>
             <om:hasNumericalValue>0.04</om:hasNumericalValue>
             <om:hasUnit rdf:resource="http://purl.obolibrary.org/obo/UO_0000021"/>
+            <sbol:type rdf:resource=""/>
           </om:Measure>
         </sbol:measure>
         <sbol:definition rdf:resource="http://www.async.ece.utah.edu/cd"/>
@@ -37,9 +35,26 @@
             <sbol:displayId>i_measure</sbol:displayId>
             <om:hasNumericalValue>0.04</om:hasNumericalValue>
             <om:hasUnit rdf:resource="http://purl.obolibrary.org/obo/UO_0000077"/>
+            <sbol:type rdf:resource=""/>
           </om:Measure>
         </sbol:measure>
         <sbol:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64382"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://www.async.ece.utah.edu/md/i/p">
+            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/md/i/p"/>
+            <sbol:displayId>p</sbol:displayId>
+            <sbol:measure>
+              <om:Measure rdf:about="http://www.async.ece.utah.edu/md/i/p/pMeasure">
+                <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/md/i/p/pMeasure"/>
+                <sbol:displayId>pMeasure</sbol:displayId>
+                <om:hasNumericalValue>1.23</om:hasNumericalValue>
+                <om:hasUnit rdf:resource="http://purl.obolibrary.org/obo/UO_0000021"/>
+              </om:Measure>
+            </sbol:measure>
+            <sbol:role rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154897"/>
+            <sbol:participant rdf:resource="http://www.async.ece.utah.edu/md/fc"/>
+          </sbol:Participation>
+        </sbol:participation>
       </sbol:Interaction>
     </sbol:interaction>
     <sbol:module>
@@ -52,19 +67,13 @@
             <sbol:displayId>md_measure</sbol:displayId>
             <om:hasNumericalValue>11.28</om:hasNumericalValue>
             <om:hasUnit rdf:resource="http://purl.obolibrary.org/obo/UO_0000175"/>
+            <sbol:type rdf:resource=""/>
           </om:Measure>
         </sbol:measure>
         <sbol:definition rdf:resource="http://www.async.ece.utah.edu/empty_md"/>
       </sbol:Module>
     </sbol:module>
   </sbol:ModuleDefinition>
-<<<<<<< HEAD
-  <sbol:ModuleDefinition rdf:about="http://www.async.ece.utah.edu/empty_md">
-    <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/empty_md"/>
-    <sbol:displayId>empty_md</sbol:displayId>
-  </sbol:ModuleDefinition>
-=======
->>>>>>> a09c9e8ce51bcea0565fc4e363399831bcba5ee6
   <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/cd">
     <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/cd"/>
     <sbol:displayId>cd</sbol:displayId>
