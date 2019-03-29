@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:pr="http://partsregistry.org/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#">
+<rdf:RDF xmlns:pr="http://partsregistry.org/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:om="http://www.ontology-of-units-of-measure.org/page/om-2#">
   <sbol:ComponentDefinition rdf:about="http://partsregistry.org/cd/cd_comp">
     <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/cd_comp"/>
     <sbol:displayId>cd_comp</sbol:displayId>
