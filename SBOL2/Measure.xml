@@ -13,6 +13,7 @@
             <sbol:displayId>fc_measure</sbol:displayId>
             <om:hasNumericalValue>0.04</om:hasNumericalValue>
             <om:hasUnit rdf:resource="http://purl.obolibrary.org/obo/UO_0000021"/>
+            <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000610"/>
           </om:Measure>
         </sbol:measure>
         <sbol:definition rdf:resource="http://www.async.ece.utah.edu/cd"/>
