@@ -16,6 +16,7 @@ CreateAndRemoveModuleDefinition.xml
 EF587312.xml
 GenericTopLevelOutput.xml
 GenericTopLevelOutput_ann.xml
+Measure.xml
 ModelOutput.xml
 ModuleDefinitionOutput.xml
 ModuleDefinitionOutput_int_md_ann.xml
@@ -84,8 +85,10 @@ singleModuleDefinition.xml
 singleSequence.xml
 test_Collection_remove.xml
 test_ComponentDefinition_remove.xml
+test_Experiment_ExperimentData.xml
 test_GenericTopLevel_remove.xml
 test_Model_remove.xml
 test_ModuleDefinition_remove.xml
 test_Sequence_remove.xml
+test_source_location.xml
 toggle.xml
