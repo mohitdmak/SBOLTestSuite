@@ -99,7 +99,7 @@
   <sbol:Sequence rdf:about="http://partsregistry.org/seq/seq_comp">
     <sbol:persistentIdentity rdf:resource="http://partsregistry.org/seq/seq_comp"/>
     <sbol:displayId>seq_comp</sbol:displayId>
-    <sbol:elements>acagctagctacagctagct</sbol:elements>
+    <sbol:elements>ttgacagctagttgacagctag</sbol:elements>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq3.html"/>
   </sbol:Sequence>
 </rdf:RDF>

@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/">
   <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/RBS">
     <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/RBS"/>
     <sbol:displayId>RBS</sbol:displayId>
@@ -7,36 +7,6 @@
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/BBa_C0051">
-    <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/BBa_C0051"/>
-    <sbol:displayId>BBa_C0051</sbol:displayId>
-    <prov:wasDerivedFrom rdf:resource="http://partsregistry.org/part/BBa_C0051"/>
-    <dcterms:title>cI lam</dcterms:title>
-    <dcterms:description>cI repressor from E. coli phage lambda (+LVA)</dcterms:description>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
-    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
-    <sbol:sequence rdf:resource="http://www.async.ece.utah.edu/partseq_156"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/Terminator">
-    <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/Terminator"/>
-    <sbol:displayId>Terminator</sbol:displayId>
-    <prov:wasDerivedFrom rdf:resource="urn:c978bfae-0463-483e-8170-6a20e3968474"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
-    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/BBa_E0040">
-    <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/BBa_E0040"/>
-    <sbol:displayId>BBa_E0040</sbol:displayId>
-    <prov:wasDerivedFrom rdf:resource="urn:0fb4a103-86c4-4d90-8e73-d35ca45b4cf7"/>
-    <dcterms:title>GFP</dcterms:title>
-    <dcterms:description>green fluorescent protein derived from jellyfish Aequeora victoria wild-type GFP (SwissProt: P42212</dcterms:description>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
-    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
-    <sbol:sequence rdf:resource="http://www.async.ece.utah.edu/_0a9f5ec9_e70e_4ed1_93b1_50d4b8b1a36c"/>
   </sbol:ComponentDefinition>
   <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/Repressor1">
     <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/Repressor1"/>
@@ -46,19 +16,19 @@
     <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
     <sbol:component>
-      <sbol:Component rdf:about="http://www.async.ece.utah.edu/Repressor1/BBa_C0051">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/Repressor1/BBa_C0051"/>
-        <sbol:displayId>BBa_C0051</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="http://www.async.ece.utah.edu/BBa_C0051"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
       <sbol:Component rdf:about="http://www.async.ece.utah.edu/Repressor1/RBS">
         <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/Repressor1/RBS"/>
         <sbol:displayId>RBS</sbol:displayId>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
         <sbol:definition rdf:resource="http://www.async.ece.utah.edu/RBS"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://www.async.ece.utah.edu/Repressor1/BBa_C0051">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/Repressor1/BBa_C0051"/>
+        <sbol:displayId>BBa_C0051</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://www.async.ece.utah.edu/BBa_C0051"/>
       </sbol:Component>
     </sbol:component>
     <sbol:sequenceAnnotation>
@@ -101,6 +71,36 @@
       </sbol:SequenceConstraint>
     </sbol:sequenceConstraint>
   </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/BBa_C0051">
+    <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/BBa_C0051"/>
+    <sbol:displayId>BBa_C0051</sbol:displayId>
+    <prov:wasDerivedFrom rdf:resource="http://partsregistry.org/part/BBa_C0051"/>
+    <dcterms:title>cI lam</dcterms:title>
+    <dcterms:description>cI repressor from E. coli phage lambda (+LVA)</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="http://www.async.ece.utah.edu/partseq_156"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/Terminator">
+    <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/Terminator"/>
+    <sbol:displayId>Terminator</sbol:displayId>
+    <prov:wasDerivedFrom rdf:resource="urn:c978bfae-0463-483e-8170-6a20e3968474"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/BBa_E0040">
+    <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/BBa_E0040"/>
+    <sbol:displayId>BBa_E0040</sbol:displayId>
+    <prov:wasDerivedFrom rdf:resource="urn:0fb4a103-86c4-4d90-8e73-d35ca45b4cf7"/>
+    <dcterms:title>GFP</dcterms:title>
+    <dcterms:description>green fluorescent protein derived from jellyfish Aequeora victoria wild-type GFP (SwissProt: P42212</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="http://www.async.ece.utah.edu/_0a9f5ec9_e70e_4ed1_93b1_50d4b8b1a36c"/>
+  </sbol:ComponentDefinition>
   <sbol:ComponentDefinition rdf:about="http://www.async.ece.utah.edu/BBa_R0010">
     <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/BBa_R0010"/>
     <sbol:displayId>BBa_R0010</sbol:displayId>
@@ -121,19 +121,11 @@
     <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
     <sbol:component>
-      <sbol:Component rdf:about="http://www.async.ece.utah.edu/pTAKRightCasette/Reporter">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pTAKRightCasette/Reporter"/>
-        <sbol:displayId>Reporter</sbol:displayId>
+      <sbol:Component rdf:about="http://www.async.ece.utah.edu/pTAKRightCasette/Repressor1">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pTAKRightCasette/Repressor1"/>
+        <sbol:displayId>Repressor1</sbol:displayId>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="http://www.async.ece.utah.edu/Reporter"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
-      <sbol:Component rdf:about="http://www.async.ece.utah.edu/pTAKRightCasette/BBa_R0010">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pTAKRightCasette/BBa_R0010"/>
-        <sbol:displayId>BBa_R0010</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="http://www.async.ece.utah.edu/BBa_R0010"/>
+        <sbol:definition rdf:resource="http://www.async.ece.utah.edu/Repressor1"/>
       </sbol:Component>
     </sbol:component>
     <sbol:component>
@@ -145,11 +137,19 @@
       </sbol:Component>
     </sbol:component>
     <sbol:component>
-      <sbol:Component rdf:about="http://www.async.ece.utah.edu/pTAKRightCasette/Repressor1">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pTAKRightCasette/Repressor1"/>
-        <sbol:displayId>Repressor1</sbol:displayId>
+      <sbol:Component rdf:about="http://www.async.ece.utah.edu/pTAKRightCasette/BBa_R0010">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pTAKRightCasette/BBa_R0010"/>
+        <sbol:displayId>BBa_R0010</sbol:displayId>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="http://www.async.ece.utah.edu/Repressor1"/>
+        <sbol:definition rdf:resource="http://www.async.ece.utah.edu/BBa_R0010"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://www.async.ece.utah.edu/pTAKRightCasette/Reporter">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pTAKRightCasette/Reporter"/>
+        <sbol:displayId>Reporter</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://www.async.ece.utah.edu/Reporter"/>
       </sbol:Component>
     </sbol:component>
     <sbol:sequenceAnnotation>
