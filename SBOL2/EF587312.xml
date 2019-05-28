@@ -8,6 +8,7 @@
     <genbank:locus>EF587312</genbank:locus>
     <genbank:molecule>DNA</genbank:molecule>
     <genbank:division>SYN</genbank:division>
+    <genbank:date>07-DEC-2007</genbank:date>
     <genbank:region>complement(1379..2083)</genbank:region>
     <genbank:keywords>.</genbank:keywords>
     <genbank:source>Yeast expression vector pNIA-Cb</genbank:source>
