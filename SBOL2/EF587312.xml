@@ -43,7 +43,7 @@
         <gbConv:organism>Yeast expression vector pNIA-Cb</gbConv:organism>
         <gbConv:mol_type>other DNA</gbConv:mol_type>
         <gbConv:db_xref>taxon:443237</gbConv:db_xref>
-        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000149"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
         <sbol:location>
           <sbol:Range rdf:about="http://www.async.ece.utah.edu/EF587312/annotation0/range/1">
             <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/EF587312/annotation0/range"/>
