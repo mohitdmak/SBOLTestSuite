@@ -3,7 +3,7 @@
     "@id" : "GFP_protein",
     "@type" : "sbol:Component",
     "description" : "GFP",
-    "displayId" : "GFP",
+    "displayId" : "GFP_protein",
     "name" : "GFP",
     "type" : "SBO:0000252"
   }, {

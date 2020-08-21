@@ -340,7 +340,7 @@
 
 :GFP_protein  a           sbol:Component ;
         sbol:description  "GFP" ;
-        sbol:displayId    "GFP" ;
+        sbol:displayId    "GFP_protein" ;
         sbol:name         "GFP" ;
         sbol:type         SBO:0000252 .
 
