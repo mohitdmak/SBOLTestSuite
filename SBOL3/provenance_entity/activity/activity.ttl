@@ -12,7 +12,7 @@
 :toggle_switch_optimised
         a                    sbol:Component ;
         sbol:description     "Toggle Switch genetic circuit - codon optimised" ;
-        sbol:displayId       "toggle_switch optimised" ;
+        sbol:displayId       "toggle_switch_optimised" ;
         sbol:name            "Toggle Switch Optimised" ;
         sbol:type            SBO:0000241 ;
         prov:wasDerivedFrom  :toggle_switch ;

@@ -34,7 +34,7 @@
    <sbol:Component rdf:about="GFP_protein">
       <sbol:type rdf:resource="https://identifiers.org/SBO:0000252"/>
       <sbol:name>GFP</sbol:name>
-      <sbol:displayId>GFP</sbol:displayId>
+      <sbol:displayId>GFP_protein</sbol:displayId>
       <sbol:description>GFP</sbol:description>
    </sbol:Component>
    <sbol:Component rdf:about="ter_lacI">

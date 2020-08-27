@@ -22,7 +22,7 @@
          <prov:Activity rdf:about="codon_optimization_activity"/>
       </prov:wasGeneratedBy>
       <sbol:description>Toggle Switch genetic circuit - codon optimised</sbol:description>
-      <sbol:displayId>toggle_switch optimised</sbol:displayId>
+      <sbol:displayId>toggle_switch_optimised</sbol:displayId>
       <sbol:type rdf:resource="https://identifiers.org/SBO:0000241"/>
       <sbol:name>Toggle Switch Optimised</sbol:name>
    </sbol:Component>
