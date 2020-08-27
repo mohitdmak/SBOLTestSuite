@@ -212,7 +212,7 @@
   "https://sbolstandard.org/examples/toggle_switch_optimised" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
-      "value" : "toggle_switch optimised"
+      "value" : "toggle_switch_optimised"
     }
      ] ,
     "http://www.w3.org/ns/prov#wasGeneratedBy" : [ { 

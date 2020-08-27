@@ -1206,7 +1206,7 @@
   "https://sbolstandard.org/examples/GFP_protein" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
-      "value" : "GFP"
+      "value" : "GFP_protein"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 

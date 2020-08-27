@@ -60,7 +60,7 @@
     "@id" : "toggle_switch_optimised",
     "@type" : "sbol:Component",
     "description" : "Toggle Switch genetic circuit - codon optimised",
-    "displayId" : "toggle_switch optimised",
+    "displayId" : "toggle_switch_optimised",
     "name" : "Toggle Switch Optimised",
     "type" : "SBO:0000241",
     "wasDerivedFrom" : "toggle_switch",

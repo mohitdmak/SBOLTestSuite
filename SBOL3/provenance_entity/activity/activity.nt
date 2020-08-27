@@ -1,7 +1,7 @@
 <https://sbolstandard.org/examples/toggle_switch_optimised> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://sbolstandard.org/examples/toggle_switch> .
 <https://sbolstandard.org/examples/toggle_switch_optimised> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://sbolstandard.org/examples/codon_optimization_activity> .
 <https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#description> "Toggle Switch genetic circuit - codon optimised" .
-<https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#displayId> "toggle_switch optimised" .
+<https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#displayId> "toggle_switch_optimised" .
 <https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000241> .
 <https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#name> "Toggle Switch Optimised" .
 <https://sbolstandard.org/examples/toggle_switch_optimised> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
