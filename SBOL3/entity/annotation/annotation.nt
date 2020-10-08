@@ -8,10 +8,10 @@
 <https://sbolstandard.org/examples/BBa_J23119/usage1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://parts.igem.org/IGEMUsage> .
 <https://sbolstandard.org/examples/BBa_J23119/usage1> <http://parts.igem.org/twins> "7" .
 <https://sbolstandard.org/examples/BBa_J23119/usage1> <http://parts.igem.org/inStock> "true" .
-<https://sbolstandard.org/examples/BBa_J23119> <http://parts.igem.org/belongsTo> <https://sbolstandard.org/examples/igem> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://parts.igem.org/belongsTo> <http://parts.igem.org> .
 <https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
-<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#displayId> "BBa_J23119" .
-<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#name> "BBa_J23119 part" .
+<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#displayId> "BBa_J23119 part" .
+<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#name> "BBa_J23119" .
 <https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#description> "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library." .
 <https://sbolstandard.org/examples/BBa_J23119> <http://parts.igem.org/hasInformation> <https://sbolstandard.org/examples/BBa_J23119/information1> .
 <https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
@@ -26,12 +26,12 @@
 <https://sbolstandard.org/examples/BBa_J23119/twinParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
 <https://sbolstandard.org/examples/BBa_J23119/twinParts> <http://sbols.org/v3#displayId> "twinParts" .
 <https://sbolstandard.org/examples/BBa_J23119/twinParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://parts.igem.org/TwinPartUsage> .
-<https://sbolstandard.org/examples/igem> <http://parts.igem.org/website> "http://parts.igem.org/Main_Page" .
-<https://sbolstandard.org/examples/igem> <http://sbols.org/v3#description> "Registry of Standard Biological Parts" .
-<https://sbolstandard.org/examples/igem> <http://sbols.org/v3#name> "iGEM Registry" .
-<https://sbolstandard.org/examples/igem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
-<https://sbolstandard.org/examples/igem> <http://sbols.org/v3#displayId> "igem" .
-<https://sbolstandard.org/examples/igem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://parts.igem.org/Repository> .
+<http://parts.igem.org> <http://parts.igem.org/website> "http://parts.igem.org/Main_Page" .
+<http://parts.igem.org> <http://sbols.org/v3#description> "Registry of Standard Biological Parts" .
+<http://parts.igem.org> <http://sbols.org/v3#name> "iGEM Registry" .
+<http://parts.igem.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<http://parts.igem.org> <http://sbols.org/v3#displayId> "parts.igem.org" .
+<http://parts.igem.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://parts.igem.org/Repository> .
 <https://sbolstandard.org/examples/BBa_J23119/information1> <http://parts.igem.org/regulation> "//regulation/second_regulation" .
 <https://sbolstandard.org/examples/BBa_J23119/information1> <http://parts.igem.org/regulation> "//regulation/constitutive" .
 <https://sbolstandard.org/examples/BBa_J23119/information1> <http://parts.igem.org/sigmaFactor> "//rnap/prokaryote/ecoli/sigma70" .
