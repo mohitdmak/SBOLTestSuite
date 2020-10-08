@@ -70,6 +70,7 @@
 <https://sbolstandard.org/examples/milli> <http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel> "milli2" .
 <https://sbolstandard.org/examples/milli> <http://www.ontology-of-units-of-measure.org/resource/om-2/longcomment> "This is an example long comment for the milli prefix." .
 <https://sbolstandard.org/examples/milli> <http://www.ontology-of-units-of-measure.org/resource/om-2/label> "milli" .
+<https://sbolstandard.org/examples/milli> <http://www.ontology-of-units-of-measure.org/resource/om-2/symbol> "m" .
 <https://sbolstandard.org/examples/milli> <http://sbols.org/v3#displayId> "milli" .
 <https://sbolstandard.org/examples/milli> <http://sbols.org/v3#name> "milli" .
 <https://sbolstandard.org/examples/milli> <http://sbols.org/v3#description> "Comment for the milli prefix." .
