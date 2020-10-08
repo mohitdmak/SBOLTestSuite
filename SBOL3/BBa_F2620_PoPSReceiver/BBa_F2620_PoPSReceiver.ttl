@@ -58,6 +58,7 @@
         a               sbol:Range ;
         sbol:displayId  "location_1" ;
         sbol:end        "108" ;
+        sbol:hasSequence     <BBa_F2620/sequence_1> ;
         sbol:start      "55" .
 
 <BBa_B0034/sequence_1>
@@ -72,6 +73,7 @@
         a               sbol:Range ;
         sbol:displayId  "location_1" ;
         sbol:end        "1078" ;
+        sbol:hasSequence     <BBa_F2620/sequence_1> ;
         sbol:start      "1024" .
 
 :BBa_B0012  a             sbol:Component ;
@@ -150,6 +152,7 @@
         a               sbol:Range ;
         sbol:displayId  "location_1" ;
         sbol:end        "78" ;
+        sbol:hasSequence     <BBa_F2620/sequence_1> ;
         sbol:start      "67" .
 
 <BBa_F2620/interaction_3>
@@ -256,6 +259,7 @@
         a               sbol:Range ;
         sbol:displayId  "location_1" ;
         sbol:end        "1628" ;
+        sbol:hasSequence     <BBa_F2620/sequence_1> ;
         sbol:start      "848" .
 
 <BBa_F2620/subcomponent_3>
@@ -269,12 +273,14 @@
         a               sbol:Range ;
         sbol:displayId  "location_1" ;
         sbol:end        "160" ;
+        sbol:hasSequence  <BBa_B0015/sequence_1> ;
         sbol:start      "81" .
 
 <BBa_F2620/subcomponent_6/location_1>
         a               sbol:Range ;
         sbol:displayId  "location_1" ;
         sbol:end        "1089" ;
+        sbol:hasSequence     <BBa_F2620/sequence_1> ;
         sbol:start      "969" .
 
 <BBa_F2620/interaction_1>
@@ -293,6 +299,7 @@
         a               sbol:Range ;
         sbol:displayId  "location_1" ;
         sbol:end        "162" ;
+        sbol:hasSequence  <BBa_B0015/sequence_1> ;
         sbol:start      "122" .
 
 :BBa_B0034  a             sbol:Component ;
