@@ -21,13 +21,13 @@
         sbol:name          "BBa_J23119_usage" .
 
 :BBa_J23119  a               sbol:Component ;
-        igem:belongsTo       <http://parts.igem.org> ;
+        igem:belongsTo       <http://parts.igem.org/repository> ;
         igem:experienceURL   igem:Part:BBa_J23119:Experience ;
         igem:group           "iGEM2006_Berkeley" ;
         igem:hasInformation  <BBa_J23119/information1> ;
         igem:hasUsage        <BBa_J23119/usage1> ;
         sbol:description     "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library." ;
-        sbol:displayId       "BBa_J23119 part" ;
+        sbol:displayId       "BBa_J23119" ;
         sbol:name            "BBa_J23119" ;
         sbol:role            SO:0000167 ;
         sbol:type            SBO:0000251 .
@@ -38,11 +38,11 @@
         sbol:displayId  "twinParts" ;
         sbol:name       "twin parts" .
 
-<http://parts.igem.org>
+<http://parts.igem.org/repository>
         a                 sbol:TopLevel , igem:Repository ;
         igem:website      "http://parts.igem.org/Main_Page" ;
         sbol:description  "Registry of Standard Biological Parts" ;
-        sbol:displayId    "parts.igem.org" ;
+        sbol:displayId    "repository" ;
         sbol:name         "iGEM Registry" .
 
 <BBa_J23119/information1>
