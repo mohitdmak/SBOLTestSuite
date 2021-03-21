@@ -1,32 +1,4 @@
 { 
-  "https://sbolstandard.org/examples/codon_optimization_activity/association" : { 
-    "http://www.w3.org/ns/prov#hadAgent" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/CodonOptimiserSoftware"
-    }
-     ] ,
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "association"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Association"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#hadRole" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#design"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#hadPlan" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/CodonOptimisationProtocol"
-    }
-     ]
-  }
-   ,
   "https://sbolstandard.org/examples/CodonOptimiserSoftware" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
@@ -35,7 +7,16 @@
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "http://www.w3.org/ns/prov#Agent"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
     }
      ] ,
     "http://sbols.org/v3#name" : [ { 
@@ -63,7 +44,16 @@
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "http://www.w3.org/ns/prov#Activity"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
     }
      ] ,
     "http://sbols.org/v3#name" : [ { 
@@ -83,29 +73,6 @@
      ]
   }
    ,
-  "https://sbolstandard.org/examples/codon_optimization_activity/source_usage" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "source_usage"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Usage"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#entity" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/toggle_switch"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#hadRole" : [ { 
-      "type" : "uri" ,
-      "value" : "https://identifiers.org/SBO:0000645"
-    }
-     ]
-  }
-   ,
   "https://sbolstandard.org/examples/toggle_switch" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
@@ -115,6 +82,11 @@
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
     }
      ] ,
     "http://sbols.org/v3#name" : [ { 
@@ -144,6 +116,15 @@
       "type" : "uri" ,
       "value" : "http://www.w3.org/ns/prov#Plan"
     }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
      ] ,
     "http://sbols.org/v3#name" : [ { 
       "type" : "literal" ,
@@ -165,17 +146,26 @@
      ] ,
     "http://www.w3.org/ns/prov#endedAtTime" : [ { 
       "type" : "literal" ,
-      "value" : "2020-08-30T22:25:17.44Z"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#startedAtTime" : [ { 
-      "type" : "literal" ,
-      "value" : "2019-07-29T22:25:17.44Z"
+      "value" : "2020-08-30T18:18:15.673Z"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "http://www.w3.org/ns/prov#Activity"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#startedAtTime" : [ { 
+      "type" : "literal" ,
+      "value" : "2019-07-29T18:18:15.673Z"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
     }
      ] ,
     "http://sbols.org/v3#name" : [ { 
@@ -185,11 +175,11 @@
      ] ,
     "http://www.w3.org/ns/prov#qualifiedUsage" : [ { 
       "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/source_usage"
+      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage1"
     }
     , { 
       "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/optimised_usage"
+      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage2"
     }
      ] ,
     "http://sbols.org/v3#description" : [ { 
@@ -204,7 +194,7 @@
      ] ,
     "http://www.w3.org/ns/prov#qualifiedAssociation" : [ { 
       "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/association"
+      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/Association1"
     }
      ]
   }
@@ -223,6 +213,11 @@
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
     }
      ] ,
     "http://sbols.org/v3#name" : [ { 
@@ -247,13 +242,76 @@
      ]
   }
    ,
-  "https://sbolstandard.org/examples/codon_optimization_activity/optimised_usage" : { 
+  "https://sbolstandard.org/examples/codon_optimization_activity/Association1" : { 
+    "http://www.w3.org/ns/prov#hadAgent" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/CodonOptimiserSoftware"
+    }
+     ] ,
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
-      "value" : "optimised_usage"
+      "value" : "Association1"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/ns/prov#Association"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#hadRole" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#design"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#hadPlan" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/CodonOptimisationProtocol"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/codon_optimization_activity/Usage1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Usage1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/ns/prov#Usage"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#entity" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/toggle_switch"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#hadRole" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000645"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/codon_optimization_activity/Usage2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Usage2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+    , { 
       "type" : "uri" ,
       "value" : "http://www.w3.org/ns/prov#Usage"
     }
